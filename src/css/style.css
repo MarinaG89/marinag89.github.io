@@ -1,0 +1,515 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #344051;
+}
+.logo {
+    color: white; 
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+    
+    
+}
+.menu{
+    float: left;
+    padding-left: 430px;
+    
+}
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: white;
+    font-size: 15px;
+    margin-right: 40px;
+    text-transform: uppercase;  
+    
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/Marina.png) 90% 100%/auto 95% no-repeat  , url(../img/bg.jpg) center/cover no-repeat;
+    box-shadow: 5px 10px 8px #888888;
+        
+}
+.title_container{
+    float: left;
+    margin: 432px 0px 0px 400px;
+    color: #2c384a;
+    
+    text-align: center;
+}
+.title_container h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+.title_container h4{
+    margin-top: 40px;
+    font-size: 25px;
+    color: #79818d;
+    
+    
+}
+.title_container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #79818d;
+    background: none;
+    border-radius: 9px;
+    color: #79818d;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 0px 16px;
+    margin: 50px 15px 0px 15px;
+    
+    
+}
+.About_me h2{
+    
+    margin: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.About_me hr{
+    margin-left: 840px;
+}
+
+
+
+
+  .About_me img {
+      width: 120px;
+  margin-top: 30px; 
+      margin-left: 880px;
+  border-radius: 50%;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+    
+
+
+.About_me h5 { 
+    margin: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #2c384a;
+    line-height: 30px;
+        }
+.About_me input {
+    
+    height: 40px;
+    text-align: center;
+    border: 2px solid #79818d;
+    background: none;
+    border-radius: 9px;
+    color: #79818d;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 0px 16px;
+    margin: 30px 15px 0px 880px;
+}
+
+.My_skills {
+    width: 100%;
+    height: 500px;
+    background: url(../img/pc.png)370px no-repeat, url(../img/sign.png)769px no-repeat, url(../img/rocket.png)1180px no-repeat, url(../img/megafon.png)1570px no-repeat, url(../img/bg2.jpg) center/cover no-repeat;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2c384a;
+    margin-top: 40px;
+}
+
+.My_skills hr{
+       margin-left: 850px;
+    margin-top: 60px;
+    }   
+    
+
+.My_skills h2 {
+    padding-top:  60px;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.column1 {
+    
+    float:left;
+    text-align: center;
+    line-height: 40px;
+    color: #cf7600;
+    font-size: 20px;
+    margin-left: 330px;
+    padding-top: 180px;
+    }
+    
+    .column1 h3{
+        font-weight: bold;
+        
+    }  
+    
+    
+
+
+.column1 p{
+    color: #2c384a;
+    font-size: 15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.column2{
+    float:left;
+    text-align: center;
+    line-height: 40px;
+    color: #cf7600;
+    font-size: 20px;
+    margin-left: 230px;
+    padding-top: 180px;
+    
+    
+    
+}
+  .column2 h3{
+        font-weight: bold;
+        
+    } 
+
+.column2 p{
+    color: #2c384a;
+    font-size: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.column3{
+    float:left;
+    text-align: center;
+    line-height: 40px;
+    color: #cf7600;
+    font-size: 20px;
+    margin-left: 240px;
+    padding-top: 180px;
+    
+    
+    
+}
+
+  .column3 h3{
+        font-weight: bold;
+        
+    } 
+
+.column3 p{
+    color: #2c384a;
+    font-size: 15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.column4{
+    float:left;
+    text-align: center;
+    line-height: 40px;
+    color: #cf7600;
+    font-size: 20px;
+    margin-left: 270px;
+    padding-top: 180px;
+    
+    
+    
+}
+
+  .column4 h3{
+        font-weight: bold;
+        
+    } 
+
+.column4 p{
+    color: #2c384a;
+    font-size: 15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.Cases{
+    width: 100%;
+    height: 250px;
+    background-color: #e3e8e8;
+    
+    
+}
+
+.Cases hr{
+    margin-left: 850px;
+    margin-top: 60px;
+}
+
+.Cases h2{
+    padding-top:  60px;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2c384a;
+    
+}
+
+.Cases p {
+    
+    margin: 30px;
+    margin-left: 830px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #2c384a;
+    line-height: 30px;
+    
+}
+
+.Cases img{
+    margin-top: 1px;
+    margin-left: 400px;
+    background-size: auto;
+}
+
+.Cases h6 {
+    font-size: 21px;
+    font-family: sans-serif;
+     color: rgb(63, 73, 90);
+      margin: 90px 700px;
+    text-align: center
+  
+}
+
+.Payment_calculator h2 {
+    margin-top:  900px;
+   
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2c384a;
+}
+
+
+.Payment_calculator{
+    width: 100%;
+    height: 350px;
+    background-color: f1f2f3;
+    
+}
+  
+  
+
+
+.Stats {
+    
+    width: 100%;
+    height: 500px;
+    background: url(../img/smile.png)370px no-repeat, url(../img/brackets.png)769px no-repeat, url(../img/checkmark.png)1180px no-repeat, url(../img/trophy.png)1570px no-repeat, url(../img/statbg.jpg) center/cover no-repeat;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2c384a;
+    margin-top: 40px;
+}
+
+.Stats h2{
+    padding-top: 70px;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2c384a;
+}
+
+
+.Stats hr{
+    margin-left: 850px;
+    margin-top: 60px;
+}
+
+.col1 h3{
+    
+    
+  font-size: 37px;
+  font-family: "Impact";
+  float: left;
+  text-align: center;
+  margin-left: 370px;
+  float:left;
+  line-height: 40px;
+  color:#c323e4f;
+   padding-top: 212px;
+}
+
+
+
+
+.col2 h3{
+    
+    
+  font-size: 37px;
+  font-family: "Impact";
+  float: left;
+  text-align: center;
+  margin-left: 337px;
+  float:left;
+  line-height: 40px;
+  color:#c323e4f;
+   padding-top: 197px;
+}
+
+.col3 h3{
+    
+    
+  font-size: 37px;
+  font-family: "Impact";
+  float: left;
+  text-align: center;
+  margin-left: 338px;
+  float:left;
+  line-height: 40px;
+  color:#c323e4f;
+   padding-top: 180px;
+}
+
+
+.col4 h3{
+    
+    
+  font-size: 37px;
+  font-family: "Impact";
+  float: left;
+  text-align: center;
+  margin-left: 350px;
+  float:left;
+  line-height: 40px;
+  color:#c323e4f;
+   padding-top: 160px;
+}
+
+.col1 h5{
+    
+    color: #2c384a;
+    font-size: 20px;
+    text-align: left;
+    text-transform: capitalize;
+   
+    
+}
+.Reviews h2{
+    
+    margin: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2c384a;
+}
+
+.Reviews hr{
+    margin-left: 850px;
+}
+
+
+
+
+  .Reviews img {
+      width: 120px;
+  margin-top: 30px; 
+      margin-left: 890px;
+  border-radius: 50%;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+    
+
+
+.Reviews h5 { 
+    margin: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-transform:capitalize;
+    color: #2c384a;
+    line-height: 30px;
+        }
+
+
+
+.Contact_info{
+     width: 100%;
+    height: 820px;
+    background: url(../img/geo.png)570px no-repeat, url(../img/envel.png)899px no-repeat, url(../img/phone.png)1210px no-repeat, url(../img/contactmap.png) center/cover no-repeat;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2c384a;
+    margin-top: 30px;
+}
+
+.Contact_info h2{
+    margin: 60px;
+    padding-top: 70px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+}
+.Contact_info hr{
+    margin-left: 850px;
+}
+
+.Contact_info h3{
+    margin: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-transform:capitalize;
+    color: #ffffff;
+    line-height: 30px;
+    
+}
+
+.Contact_info h4{
+    padding-top: 190px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-transform:uppercase;
+    color: #ffffff;
+    line-height: 30px;
+    
+}
+
+.Contact_info p{
+    float: left;
+    margin-left: 200px;
+    
+}
