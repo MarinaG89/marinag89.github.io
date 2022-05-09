@@ -170,7 +170,7 @@
    
    <div class="col2"> 
   <h3> 4600 </h3>
-  <p> Hours of work </p>
+  <h5> Hours of work </h5>
   </div>
   
   <div class="col3"> 
@@ -217,23 +217,25 @@
     
     
     <h4> Leave a message here </h4>
-    <p><textarea name="text" cols="25" rows="3">
-     Name Lastname
-     </textarea>
+   
 
-    </p>
-    <p><textarea name="text" cols="25" rows="3">
-     Email
-     </textarea>
+<div class="container">
+  <form action="action_page.php">
 
-    </p>
-<p><textarea name="text" cols="60" rows="7">
-     Message
-     </textarea>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    </p>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
+    
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 
 
 </div>
