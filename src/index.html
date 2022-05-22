@@ -10,9 +10,19 @@
     <title>Marina Web Developer</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
 </head>
 
+
 <body>
+  
+   
+   
     <header>
 
         <nav>
@@ -21,12 +31,12 @@
             <div class="menu">
                 <ul>
 
-                    <li> About me </li>
-                    <li> Services </li>
-                    <li> Cases </li>
-                    <li> Price </li>
-                    <li> Reviews </li>
-                    <li> Contacts </li>
+                    <li> <a href="#"> About me </a> </li>
+                    <li> <a href="#"> Services</a> </li>
+                    <li> <a href="#"> Cases </a> </li>
+                    <li> <a href="#"> Price </a> </li>
+                    <li> <a href="#"> Reviews </a> </li>
+                    <li> <a href="#"> Contacts </a> </li>
 
                 </ul>
             </div>
@@ -34,16 +44,20 @@
         </nav>
 
     </header>
+    
+    
 
     <div class="main">
         <div class="title_container">
             <h1> Hello <br> I'm Marina G </h1>
             <h4> Full stack web-developer </h4>
-            <input type="submit" value="About me">
-            <input type="submit" value="My Work">
+            <input type="button" value="About me">
+            <input type="button" value="My Work">
 
         </div>
     </div>
+    
+    
 
 
     <div class="About_me">
@@ -53,19 +67,21 @@
         size="5" 
         color="orange"
         >
-            
-        <img src="img/cat.jpg">
+           
+      
+             
+        <img class="animate__animated animate__tada" src="img/cat.jpg">
         <br>
         <h5> About me lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum <br> lorem ipsum lorem ipsum lorem ipsum <br> lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </h5>
         <br>
-        <input type="submit" value="My Resume">
-
+        <input type="button" value="My Resume">
+<div class="parallax" src="img/statbg.jpg"> </div>
 
     </div>
     
 
     <div class="My_skills">
-        <h2> My skills </h2>
+        <h2 > My skills </h2>
         
            <hr width="200px" 
         size="5" 
@@ -123,33 +139,39 @@
             <h2> Payment Calculator</h2>
             
             
-            <label for="project_type"> Choose a project type:</label>
+            <H4> Choose a project type:</H4>
+            <div class="Box1">
+                
             <select name="project_type" id="project_type">
                 <option value="landing">Landing page</option>
                 <option value="corporate">Corporate website</option>
                 <option value="marketplace">Marketplace</option>
             </select>
+            </div>
 
             <br>
 
-            <label for="page_count"> Page count:</label>
+        <H4> Page Count:</H4>
+           <div class="Box2">
             <select name="page_count" id="page_count">
                 <option value="1-5">Up to 5</option>
                 <option value="5-50">Up to 50</option>
                 <option value="100more">100 and More</option>
             </select>
+            </div>
 
 
 
             <br>
 
-            <label for="other_parameter"> Other parameter:</label>
+            <H4> Other parameters:</H4>
+            <div class="Box3">
             <select name="other_parameter" id="other_parameter">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
             </select>
-           
+            </div>
 
         </div>
     </div>
@@ -161,35 +183,62 @@
         size="5" 
         color="orange"
         >
-  
+
   
   <div class="col1"> 
   <h3> 120</h3>
-  <h5> Happy Clients </h5>
+  
   </div>
    
    <div class="col2"> 
   <h3> 4600 </h3>
-  <h5> Hours of work </h5>
+  
   </div>
   
   <div class="col3"> 
   <h3> 340</h3>
-  <p> Projects completed </p>
+ 
   </div>
   
   <div class="col4"> 
   <h3> 23</h3>
-  <p> Awards received </p>
+  
   </div>
+  
+  <div class="textundernumbers1">
+     <p> Happy Clients </p>
+    
+      
+  </div>
+  
+   <div class="textundernumbers2">
+     <p> Hours of Work </p>
+    
+      
+  </div>
+  
+  <div class="textundernumbers3">
+     <p> Projects Completed </p>
+    
+      
+  </div>
+  
+   <div class="textundernumbers4">
+     <p> Awards Received </p>
+    
+      
+  </div>
+  
+  
+  
    
-   
+  
    
    </div>
    
    
     <div class="Reviews">
-        <h2> Reviews </h2>
+        <h2 > Reviews </h2>
          
          <hr width="200px" 
         size="5" 
@@ -213,32 +262,40 @@
         color="orange"
         >
 
-    <h3> Here is my email and phone, you can aslo fill a form on this website</h3>
+    <h3> Here is my email and phone, you can also fill a form on this website</h3>
     
     
     <h4> Leave a message here </h4>
    
 
 <div class="container">
-  <form action="action_page.php">
+ 
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+        
+    <input type="text1" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+    <input type="text2" id="lname" name="lastname" placeholder="Your last name..">
 
-    
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+     
+     
+      <div class="container2">
+    <input type="text3" id="subject" name="subject" placeholder="Write your message here.." style="height:100px">
+    </div>
 
+   <div class="container3">
+   
     <input type="submit" value="Submit">
 
-  </form>
-</div>
+    </div>
+    
 
 
 </div>
+
+
 
 
 </body>
