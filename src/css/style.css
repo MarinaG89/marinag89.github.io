@@ -504,23 +504,40 @@ nav{
 }
 
 .Box1{
-    margin: auto;
+  
   height: 40px;
   width: 15%;
+  padding: 12px 75px; 
+  margin-left: 800px;
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  box-sizing: border-box;
+  background-color: white;
     
 }
 
 .Box2{
-    margin: auto;
+    
   height: 40px;
   width: 15%;
-    
+     padding: 12px 95px; 
+  margin-left: 800px;
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  box-sizing: border-box;
+  background-color: white;
 }
 
 .Box3{
-    margin: auto;
+   
   height: 40px;
   width: 15%;
+  padding: 12px 120px; 
+  margin-left: 800px;
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  box-sizing: border-box;
+  background-color: white;
     
 }
   
